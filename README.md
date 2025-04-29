@@ -53,13 +53,11 @@ CA_FVD/
 │   │   ├── preprocess_audio/        # Audio features
 │   │   ├── preprocess_text/         # Text features
 │   │   ├── preprocess_visual/       # Visual features
-│   │   ├── fakesv_segment_duration.json
 │   │   └── metainfo.json
 │   ├── fakett/
 │   │   ├── preprocess_audio/
 │   │   ├── preprocess_text/
 │   │   ├── preprocess_visual/
-│   │   ├── fakett_segment_duration.json
 │   │   └── metainfo.json
 ├── dataloader/
 │   └── dataloader.py                # Code for loading datasets
@@ -81,6 +79,11 @@ CA_FVD/
 
 ## ⚙️ Environment Setup and Run
 
+We used the following versions for development:  
+- **Anaconda**: `24.5.0`  
+- **Python**: `3.10.16`  
+- **PyTorch**: `2.0.1`  
+- **CUDA**: `11.7`  
 You can set up the environment by running the following commands:
 
 ```bash
