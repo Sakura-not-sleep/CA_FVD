@@ -5,8 +5,6 @@
 
 Due to copyright reasons, we are unable to provide the original datasets.  You can download them from the following links:
 
----
-
 ### FakeSV
 
 - **Description**: A multimodal benchmark for fake news detection on short video platforms.
@@ -19,6 +17,8 @@ Due to copyright reasons, we are unable to provide the original datasets.  You c
 - **Access**: [ICTMCG/FakingRecipe](https://github.com/ICTMCG/FakingRecipe)  
   📄 *FakingRecipe: Detecting Fake News on Short Video Platforms from the Perspective of Creative Process*, ACM MM 2024.
 
+---
+
 ## 🛠️ Prepare
 
 ### 📂 Feature Acquisition
@@ -27,7 +27,6 @@ You can obtain the original feature files from the following link:
 
 - **features**: [Download from FakingRecipe repository](https://github.com/ICTMCG/FakingRecipe)
 
----
 
 ### 📝 Pseudo Labels Preparation
 
@@ -36,7 +35,6 @@ You should insert the pseudo labels from the *pseudo_label* folder into the corr
 - *pseudo_label*: Folder containing the generated pseudo labels for each video.
 - *metainfo.json*: Metadata file where you need to add the pseudo label information for each video.
 
----
 
 - ### 🗂️ Code Structure
 
@@ -76,3 +74,23 @@ CA_FVD/
 ├── main.py                          # Entry point for training
 ├── requirements.txt                 # Python dependency list
 ├── run.py                           # Entry point for inference
+
+---
+
+## ⚙️ Environment Setup and Run
+
+You can set up the environment by running the following commands:
+
+```bash
+# 1. Create a new conda environment named CA_FVD
+conda create -n CA_FVD python=3.10.16
+
+# 2. Activate the environment
+conda activate CA_FVD
+
+# 3. Install PyTorch 2.0.1 with CUDA 11.7 support
+pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 torchaudio==2.0.2+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
+
+# 4. Install the remaining dependencies
+pip install -r requirements.txt
+
