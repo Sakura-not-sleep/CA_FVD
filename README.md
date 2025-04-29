@@ -19,7 +19,7 @@ Due to copyright reasons, we are unable to provide the original datasets.  You c
 
 ---
 
-## 🛠️ Other Prepare
+## 🛠️ Other Preparation
 
 ### 📂 Feature Acquisition
 
