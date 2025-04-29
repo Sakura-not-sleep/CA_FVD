@@ -94,3 +94,6 @@ pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 torchaudio==2.0.2+cu117
 # 4. Install the remaining dependencies
 pip install -r requirements.txt
 
+# 5. run
+python main.py
+
