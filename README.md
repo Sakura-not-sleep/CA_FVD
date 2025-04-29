@@ -19,21 +19,21 @@ Due to copyright reasons, we are unable to provide the original datasets.  You c
 
 ---
 
-## 🛠️ Prepare
+## 🛠️ Other Prepare
 
 ### 📂 Feature Acquisition
 
 You can obtain the original feature files from the following link:
 
-- **features**: [Download from FakingRecipe repository](https://github.com/ICTMCG/FakingRecipe)
+- **features:** [Download from FakingRecipe repository](https://github.com/ICTMCG/FakingRecipe)
 
 
 ### 📝 Pseudo Labels Preparation
 
-You should insert the pseudo labels from the *pseudo_label* folder into the corresponding *metainfo.json* files based on the video IDs.
+You should insert the pseudo labels from the **pseudo_label** folder into the corresponding **metainfo.json** files based on the video IDs.
 
-- *pseudo_label*: Folder containing the generated pseudo labels for each video.
-- *metainfo.json*: Metadata file where you need to add the pseudo label information for each video.
+- **pseudo_label:** Folder containing the generated pseudo labels for each video.
+- **metainfo.json:** Metadata file where you need to add the pseudo label information for each video.
 
 
 - ### 🗂️ Code Structure
