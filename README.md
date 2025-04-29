@@ -83,7 +83,8 @@ We used the following versions for development:
 - **Anaconda**: `24.5.0`  
 - **Python**: `3.10.16`  
 - **PyTorch**: `2.0.1`  
-- **CUDA**: `11.7`  
+- **CUDA**: `11.7`
+
 You can set up the environment by running the following commands:
 
 ```bash
