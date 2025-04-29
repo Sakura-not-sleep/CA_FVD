@@ -45,14 +45,14 @@ CA_FVD/
 
 ├── data/
 │   ├── FakeSV/
-│   │   └── data-split/              # Video ID splits for training/validation/testing
+│   │   └── data-split/             
 │   ├── FakeTT/
-│   │   └── data-split/              # Video ID splits for generalization test
-├── fea/                             # Extracted features
+│   │   └── data-split/            
+├── fea/                            
 │   ├── fakesv/
-│   │   ├── preprocess_audio/        # Audio features
-│   │   ├── preprocess_text/         # Text features
-│   │   ├── preprocess_visual/       # Visual features
+│   │   ├── preprocess_audio/        
+│   │   ├── preprocess_text/         
+│   │   ├── preprocess_visual/      
 │   │   └── metainfo.json
 │   ├── fakett/
 │   │   ├── preprocess_audio/
@@ -60,19 +60,19 @@ CA_FVD/
 │   │   ├── preprocess_visual/
 │   │   └── metainfo.json
 ├── dataloader/
-│   └── dataloader.py                # Code for loading datasets
+│   └── dataloader.py             
 ├── model/
-│   ├── attention.py                 # Attention modules
-│   ├── CA_FVD.py                    # Main model definition
-│   ├── transformer_align.py         # Transformer-based alignment modules
-│   └── trm.py                       # Temporal relation modeling
-├── pseudo_label/                    # Folder containing pseudo labels
+│   ├── attention.py             
+│   ├── CA_FVD.py                   
+│   ├── transformer_align.py        
+│   └── trm.py                      
+├── pseudo_label/            
 ├── train/
-│   ├── metrics.py                   # Evaluation metrics
-│   ├── Trainer.py                   # Training management code
-├── main.py                          # Entry point for training
-├── requirements.txt                 # Python dependency list
-├── run.py                           # Entry point for inference
+│   ├── metrics.py                  
+│   ├── Trainer.py               
+├── main.py                     
+├── requirements.txt               
+├── run.py                          
 ```
 
 ---
@@ -98,7 +98,7 @@ conda activate CA_FVD
 pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 torchaudio==2.0.2+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
 
 # 4. Install the remaining dependencies
-pip install -r requirements.txt
+pip install -r requirements.txt --no-deps
 
 # 5. run
 python main.py
