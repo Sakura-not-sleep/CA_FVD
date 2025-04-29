@@ -16,3 +16,20 @@ Due to copyright reasons, we are unable to provide the original datasets.  You c
 - **Description**: A dataset for fake news detection from the perspective of creative manipulation.
 - **Access**: [ICTMCG/FakingRecipe](https://github.com/ICTMCG/FakingRecipe)  
   📄 *FakingRecipe: Detecting Fake News on Short Video Platforms from the Perspective of Creative Process*, ACM MM 2024.
+
+## 🛠️ Prepare
+
+### 📂 Feature Acquisition
+
+You can obtain the original feature files from the following link:
+
+- **features**: [Download from FakingRecipe repository](https://github.com/ICTMCG/FakingRecipe)
+
+---
+
+### 📝 Pseudo Labels Preparation
+
+You should insert the pseudo labels from the *pseudo_label* folder into the corresponding *meta.json* files based on the video IDs.
+
+- *pseudo_label*: Folder containing the generated pseudo labels for each video.
+- *metainfo.json*: Metadata file where you need to add the pseudo label information for each video.
