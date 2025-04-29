@@ -1,9 +1,9 @@
 # Consistency-aware Fake Videos Detection on Short Video Platforms
 
+
 ## 📦 Dataset Preparation
 
-Due to copyright reasons, we are unable to provide the original datasets.  
-You can download them from the following links:
+Due to copyright reasons, we are unable to provide the original datasets.  You can download them from the following links:
 
 ### FakeSV
 
