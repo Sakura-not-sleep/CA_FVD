@@ -42,6 +42,7 @@ The overall structure of this project is organized as follows:
 
 ```text
 CA_FVD/
+
 ├── data/
 │   ├── FakeSV/
 │   │   └── data-split/              # Video ID splits for training/validation/testing
@@ -74,7 +75,7 @@ CA_FVD/
 ├── main.py                          # Entry point for training
 ├── requirements.txt                 # Python dependency list
 ├── run.py                           # Entry point for inference
-text```
+```
 
 ---
 
